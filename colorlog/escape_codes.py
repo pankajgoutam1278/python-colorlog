@@ -21,14 +21,14 @@ def esc(*x):
     return '\033[' + ';'.join(x) + 'm'
 
 
-# The initial list of escape codes
+# The initial list of escape codes are
 escape_codes = {
     'reset': esc('0'),
     'bold': esc('01'),
     'thin': esc('02')
 }
 
-# The color names
+# The color names are
 COLORS = [
     'black',
     'red',
@@ -38,7 +38,7 @@ COLORS = [
     'purple',
     'cyan',
     'white'
-]
+  ]
 
 PREFIXES = [
     # Foreground without prefix
